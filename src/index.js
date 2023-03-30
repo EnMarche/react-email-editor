@@ -55,9 +55,9 @@ export default class extends Component {
     }
 
     this.editor = unlayer.createEditor({
+      displayMode: 'email',
       ...options,
       id: this.editorId,
-      displayMode: 'email',
       source: {
         name: pkg.name,
         version: pkg.version,
